@@ -7,8 +7,10 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Notifiable;
 
-class Organizer extends Model
+class Organizer extends Authenticatable
 {
+    protected $guard = 'organizers';
+
     use HasFactory, Notifiable;
 
     protected $fillable = [

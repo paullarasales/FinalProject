@@ -33,12 +33,12 @@
                 <!-- bottom -->
                 <div class="flex flex-row h-1/5 w-max gap-16">
                     <div class="flex flex-col w-60">
-                        <label for="lastname">Email</label>
-                        <input type="text" name="lastname" placeholder="juandelacruz@gmail.com" class="outline-none border shadow-sm">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" placeholder="juandelacruz@gmail.com" class="outline-none border shadow-sm">
                     </div>
                     <div class="flex flex-col w-60">
-                        <label for="lastname">Password</label>
-                        <input type="text" name="lastname" class="outline-none border shadow-sm">
+                        <label for="password">Password</label>
+                        <input type="text" name="password" class="outline-none border shadow-sm">
                     </div> 
                 </div>
                 <!-- button -->
